@@ -3,7 +3,7 @@ import Counter from "../islands/Counter.tsx";
 
 export default function Home() {
 
-  /*
+  
   const count = useSignal(3);
   return (
     <div class="px-4 py-8 mx-auto bg-[#86efac]">
@@ -24,11 +24,36 @@ export default function Home() {
       </div>
     </div>
   );
-  */
+  
 
+  /*
  return (
- <h1>very much</h1>
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Bar Chart</title>
+  <style>
+    canvas {
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="barChart" width="400" height="300"></canvas>  
+  <script>
+      function name(params:type) {
+        
+      }
+         
+  </script>
+  </body>
+</html>
+
 
  );
+ */
 
 }
