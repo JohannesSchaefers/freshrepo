@@ -25,6 +25,9 @@ export default function Home() {
     </div>
   );
   */
+
+ return (
 <h1>Hello!</h1>
+ );
 
 }
