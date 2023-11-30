@@ -27,9 +27,6 @@ export default function Home() {
   );
   */
 
-    <h1>Just doin the do ... ... ... ... ... nnnn</h1>);
+    <h1>Just doin the do ... ... ... ... ... nnn+n</h1>);
   
     }
-
-
-  
