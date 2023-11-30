@@ -18,6 +18,7 @@ export default function Home() {
           alt="the Fresh logo: a sliced lemon dripping with juice"
         />
         <h1 class="text-4xl font-bold">Welcome to the 45th biggest Fresh in town!</h1>
+        <canvas id="myCanvas" width="300" height="150" style="border:1px solid grey"></canvas>
         <p class="my-4">
           Try updating this message in the
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
