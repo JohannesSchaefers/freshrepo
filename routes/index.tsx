@@ -22,7 +22,7 @@ export default function Home() {
         <p class="my-4">
         <svg width="100" height="100">
           
-  <circle cx="15" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+  <circle cx="150" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
 </svg>
           Try updating this message in the
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
