@@ -3,7 +3,7 @@ import Counter from "../islands/Counter.tsx";
 
 export default function Home() {
    
-  const count = useSignal(30);
+  const count = useSignal(3);
   return (
 
    
@@ -21,7 +21,7 @@ export default function Home() {
         <canvas id="myCanvas" width="300" height="150" style="border:1px solid grey"></canvas>
         <p class="my-4">
         <svg width="100" height="100">
-        <Counter count={count} /> 
+       
   <circle cx="50" cy="50" r={count} stroke="green" stroke-width="4" fill="yellow" />
 </svg>
           Try updating this message in the
