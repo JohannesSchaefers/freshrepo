@@ -1,8 +1,10 @@
-/**@jsx h */
-import { h} from "preact";
 
-export default function test() {
-    return (
-        <div>test</div>
-    )
+
+
+
+// Your component definition
+function test() {
+    return <div>test</div>;
 }
+
+
