@@ -21,15 +21,21 @@ export default function Home() {
         <canvas id="myCanvas" width="300" height="150" style="border:1px solid grey"></canvas>
         <p class="my-4">
         <svg width="100" height="100">
-          
-  <circle cx="50" cy="50" r={count} stroke="green" stroke-width="4" fill="yellow" />
+        <Counter count={count} /> 
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
 </svg>
           Try updating this message in the
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
         </p>
-        <Counter count={count} />
+        <Counter count={count} />   
+           
       </div>
     </div>
+
+ 
+  
+  
+  
   );
  
 
