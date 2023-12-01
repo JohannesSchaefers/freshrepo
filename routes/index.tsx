@@ -3,7 +3,7 @@ import Counter from "../islands/Counter.tsx";
 
 export default function Home() {
    
-  const count = useSignal(3);
+  const count = useSignal(30);
   return (
 
    
