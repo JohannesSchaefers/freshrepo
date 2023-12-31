@@ -22,10 +22,6 @@ export default function Home() {
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
         </p>
 
-// Wir fügen in html Interaktivität ein, indem wir eine Funktion aus einer Island aufrufen
-// So könnten wir auch einen über Rest geliefert Wert einfügen.
-
-     //   <Counter1 count={count} />
       </div>
 
 
