@@ -36,7 +36,7 @@ export default function Home() {
   <form class="flex-auto pl-6">
     <div class="relative flex flex-wrap items-baseline pb-6 before:bg-black before:absolute before:-top-6 before:bottom-0 before:-left-60 before:-right-6">
       <h1 class="relative w-full flex-none mb-2 text-2xl font-semibold text-white">
-        Retro Shoe
+        Retro Shoes
 
         <Counter1 count={count} />
       </h1>
