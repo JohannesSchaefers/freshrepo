@@ -16,7 +16,7 @@ export default function Home() {
           height="128"
           alt="the Fresh logo: a sliced lemon dripping with juice"
         />
-        <h1 class="text-4xl font-bold">Welcome to the 229th biggest Fresh in town!</h1>
+        <h1 class="text-4xl font-bold">Welcome to the 230th biggest Fresh in town!</h1>
         <p class="my-4">
           Try updating this message in the
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
@@ -25,7 +25,7 @@ export default function Home() {
 // Wir fügen in html Interaktivität ein, indem wir eine Funktion aus einer Island aufrufen
 // So könnten wir auch einen über Rest geliefert Wert einfügen.
 
-        <Counter1 count={count} />
+     //   <Counter1 count={count} />
       </div>
 
 
