@@ -21,7 +21,7 @@ export default function Home() {
           Try updating this message in the
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
         </p>
-
+        <Counter1 count={count} />
       </div>
 
 
@@ -34,7 +34,7 @@ export default function Home() {
       <h1 class="relative w-full flex-none mb-2 text-2xl font-semibold text-white">
         Retro Shoes
 
-        <Counter1 count={count} />
+       
       </h1>
       <div class="relative text-lg text-white">
         $89.00
