@@ -37,6 +37,8 @@ export default function Home() {
     <div class="relative flex flex-wrap items-baseline pb-6 before:bg-black before:absolute before:-top-6 before:bottom-0 before:-left-60 before:-right-6">
       <h1 class="relative w-full flex-none mb-2 text-2xl font-semibold text-white">
         Retro Shoe
+
+        <Counter1 count={count} />
       </h1>
       <div class="relative text-lg text-white">
         $89.00
