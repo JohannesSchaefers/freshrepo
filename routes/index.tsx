@@ -22,6 +22,8 @@ export default function Home() {
           <code class="mx-2">./routes/index.tsx</code> file, and refresh.
         </p>
         <Counter1 count={count} />
+
+
       </div>
     
 
