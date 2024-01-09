@@ -60,6 +60,7 @@ const Counter1: FunctionalComponent<CounterProps> = (props: CounterProps) => {
     return () => clearInterval(intervalId);
   }, [valueToUpdate, props.count]);
 
+  console.log(props.count.value);
   return (
     <div class="py-6">
       <p class="text-3xl">{props.count.value}</p>
