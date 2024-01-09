@@ -53,14 +53,16 @@ const Counter1: FunctionalComponent<CounterProps> = (props: CounterProps) => {
     // Set up an interval to increment the value every 3 seconds
     const intervalId = setInterval(() => {
       // Increment the value by 1 (you can adjust this as needed)
-      setValueToUpdate((prevValue) => prevValue + 1);
+ 
+      setValueToUpdate((prevValue) => prevValue + 1);    // Hier müsste der von REST gelieferte Werte eingelesen werden.
+ 
     }, 3000);
 
     // Clean up the interval when the component unmounts
     return () => clearInterval(intervalId);
   }, [valueToUpdate, props.count]);
 
-  console.log(props.count.value);
+ 
   return (
     <div class="py-6">
       <p class="text-3xl">{props.count.value}</p>
